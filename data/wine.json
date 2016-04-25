@@ -1,0 +1,268 @@
+{
+  "dried_fruit": {
+    "title": "Dried Fruit",
+    "subtitle": "Primary",
+    "color": "#0040DE",
+    "meta": [
+      "Raisin",
+      "Fig",
+      "Date",
+      "Fruitcake"
+    ]
+  },
+  "black_fruit":   {
+    "title": "Black Fruit",
+    "subtitle": "Primary",
+    "color": "#0069DE",
+    "meta": [
+      "Boysenberry",
+      "Black Currant",
+      "Black Cherry",
+      "Plum",
+      "Blackberry",
+      "Blueberry",
+      "Olive"
+    ]
+  },
+  "red_fruit": {
+    "title": "Red Fruit",
+    "subtitle": "Primary",
+    "color": "#00B0DE",
+    "meta": [
+      "Cranberry",
+      "Red Plum",
+      "Pomegranate",
+      "Sour Cherry",
+      "Strawberry",
+      "Cherry",
+      "Raspberry",
+      "Red Currant"
+    ]
+  },
+  "tropical_fruit": {
+    "title": "Tropical Fruit",
+    "subtitle": "Primary",
+    "color": "#00D9DE",
+    "meta": [
+      "Pineapple",
+      "Mango",
+      "Guava",
+      "Kiwi",
+      "Lychee",
+      "Bubblegum",
+      "Melon",
+      "Passion Fruit",
+      "Lychee",
+      "Melon",
+      "Passion Fruit"
+    ]
+  },
+  "tree_fruit": {
+    "title": "Tree Fruit",
+    "subtitle": "Primary",
+    "color": "#00DE34",
+    "meta": [
+      "Quince",
+      "Apple",
+      "Pear",
+      "Nectarine",
+      "Peach",
+      "Apricot",
+      "Persimmon",
+      "Green Apple"
+    ]
+  },
+  "citrus": {
+    "title": "Citrus",
+    "subtitle": "Primary",
+    "color": "#98DE00",
+    "meta": [
+      "Lime",
+      "Lemon",
+      "Grapefruit",
+      "Orange",
+      "Marmalade",
+      "Mandarine"
+    ]
+  },
+  "flower": {
+    "title": "Flower",
+    "subtitle": "Primary",
+    "color": "#CCDE00",
+    "meta": [
+      "Iris",
+      "Peony",
+      "Elderflower",
+      "Acacia",
+      "Lilac",
+      "Jasmine",
+      "Honeysuckle",
+      "Violet",
+      "Lavender",
+      "Rose",
+      "Potpourri",
+      "Hibiscus",
+      "Hawthorn",
+      "Orange blossom",
+      "linden"
+    ]
+  },
+  "volatile_acidity": {
+    "title": "Volatile Acidity",
+    "subtitle": "Faults",
+    "color": "#DEB300",
+    "meta": [
+      "Balsamic",
+      "Vinegar"
+    ]
+  },
+  "cooked_fruit": {
+    "title": "Cooked Fruit",
+    "subtitle": "Faults",
+    "color": "#DE9400",
+    "meta": [
+      "Stewed Fruit",
+      "Toffee"
+    ]
+  },
+  "brettanomyces": {
+    "title": "Brettanomyces",
+    "subtitle": "Faults",
+    "color": "#DE6B00",
+    "meta": [
+      "Horse Manure",
+      "Sweaty Leather Saddle",
+      "Band-Aid",
+      "Black Cardamon"
+    ]
+  },
+  "sulfides_mercaptans": {
+    "title": "Sulfides",
+    "subtitle": "Faults",
+    "color": "#DE4C00",
+    "meta": [
+      "Cat Pee",
+      "Onion",
+      "Garlic",
+      "Match Box",
+      "Burnt Rubber",
+      "Boiled Eggs",
+      "Cured Meat"
+    ]
+  },
+  "tca_corked": {
+    "title": "TCA (corked)",
+    "subtitle": "Faults",
+    "color": "#DE2E00",
+    "meta": [
+      "Wet Dog",
+      "Musty Cardboard"
+    ]
+  },
+  "general_aging": {
+    "title": "General Aging",
+    "subtitle": "Tertiary",
+    "color": "#DE0000",
+    "meta": [
+      "Leather",
+      "Cocoa",
+      "Coffee",
+      "Tobacco",
+      "Hay",
+      "Nuts",
+      "Dried Fruit"
+    ]
+  },
+  "oak_aging": {
+    "title": "Oak Aging",
+    "subtitle": "Tertiary",
+    "color": "#DE006C",
+    "meta": [
+      "Dill",
+      "Smoke",
+      "Cigar Box",
+      "Baking Spices",
+      "Coconut",
+      "Vanilla",
+      "Toast"
+    ]
+  },
+  "microbial": {
+    "title": "Microbial",
+    "subtitle": "Secondary",
+    "color": "#DE00BE",
+    "meta": [
+      "Mushroom",
+      "Truffle",
+      "Tree Moss",
+      "Lager",
+      "Sourdough",
+      "Cream",
+      "Butter",
+      "Yoghurt"
+    ]
+  },
+  "earth":  {
+    "title": "Earth",
+    "subtitle": "Primary",
+    "color": "#B600DE",
+    "meta": [
+      "Petroleum",
+      "Volcanic Rocks",
+      "Red Beet",
+      "Potting Soil",
+      "Wet Gravel",
+      "Slate",
+      "Clay Pot"
+    ]
+  },
+  "vegetable": {
+    "title": "Vegetable",
+    "subtitle": "Primary",
+    "color": "#8300DE",
+    "meta": [
+      "Black Tea",
+      "Sun Dried Tomato",
+      "Tomato",
+      "Bitter Almond",
+      "Jalapeno",
+      "Green Pepper",
+      "Bell Pepper",
+      "Gooseberry",
+      "Tout Leaf",
+      "Grass"
+    ]
+  },
+  "spice": {
+    "title": "Spice",
+    "subtitle": "Primary",
+    "color": "#4600DE",
+    "meta": [
+      "Thyme",
+      "Mint",
+      "Eucalyptus",
+      "Fennel",
+      "5-Spice",
+      "Anise",
+      "Cinnamon",
+      "Black Pepper",
+      "Red Pepper",
+      "White Pepper",
+      "Dill",
+      "Clove",
+      "Nutmeg",
+      "Licorice",
+      "Vanilla"
+    ]
+  },
+  "noble_rot": {
+    "title": "Noble Rot",
+    "subtitle": "Primary",
+    "color": "#3100DE",
+    "meta": [
+      "Beeswax",
+      "Ginger",
+      "Honey"
+    ]
+  }
+}
