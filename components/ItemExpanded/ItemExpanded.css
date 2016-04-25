@@ -17,6 +17,18 @@
   border-top: 2px solid rgba(255,255,255,.2);
 }
 
+.ItemExpanded .item-meta li {
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  vertical-align: top;
+  background: rgba(0,0,0,.1);
+  color: #fff;
+  filter: hue-rotate(90deg);
+  border-radius: 3px;
+  padding: 5px 12px;
+  text-align: center;
+}
+
 /* Expanding states bound to item parent */
 .item.is-expandingTo .ItemExpanded {
   opacity: 1;
