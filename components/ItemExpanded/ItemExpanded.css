@@ -2,6 +2,7 @@
   padding: 0 40px;
   opacity: 0;
   pointer-events: none;
+  -webkit-transition: all 400ms cubic-bezier(0.060, 0.120, 0.000, 0.845);
 }
 
 .ItemExpanded .item-subtitle {
@@ -20,4 +21,10 @@
 .item.is-expandingTo .ItemExpanded {
   opacity: 1;
   pointer-events: all;
+  -webkit-transition-delay: 400ms;
+}
+
+.item.is-expandingFrom .ItemExpanded {
+  opacity: 0;
+  -webkit-transition: none;
 }
