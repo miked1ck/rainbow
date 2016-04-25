@@ -1,6 +1,6 @@
 # Rainbow – reactjs, express, and webpack
 
-React infinite scrolling rainbow color wheel
+React infinite scrolling rainbow color wheel. Elastic, watch as it adapts to the size of the viewport. Extend the data file to be anything you want/need.
 
 ![screenshot](screenshot.gif)
 
