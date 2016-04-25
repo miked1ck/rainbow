@@ -1,0 +1,23 @@
+.ItemExpanded {
+  padding: 0 40px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ItemExpanded .item-subtitle {
+  opacity: .7;
+  display: block;
+	font-style: italic;
+}
+
+.ItemExpanded .item-meta {
+  margin-top: 15px;
+  padding-top: 25px;
+  border-top: 2px solid rgba(255,255,255,.2);
+}
+
+/* Expanding states bound to item parent */
+.item.is-expandingTo .ItemExpanded {
+  opacity: 1;
+  pointer-events: all;
+}
