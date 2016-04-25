@@ -14,10 +14,6 @@ class App extends React.Component {
     this.state = { 'items': items };
   }
 
-  _setState(obj) {
-    this.setState(obj);
-  }
-
   render() {
     return (
       <div class="app">
