@@ -2,7 +2,7 @@
 
 React infinite scrolling rainbow color wheel
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.gif)
 
 ### Install
 First clone or download the app to your local machine, then install all dependencies with:
