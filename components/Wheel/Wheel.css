@@ -32,7 +32,3 @@
 .Wheel .item.is-expandingFrom a {
   opacity: 0;
 }
-
-.Wheel .item:active {
-  -webkit-tap-highlight-color: rgba(0,0,0,.2);
-}

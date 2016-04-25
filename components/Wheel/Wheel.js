@@ -22,11 +22,6 @@ class Wheel extends React.Component {
       state = {...state, expandingFrom: this.state.expandingTo, expandingTo: index }
     }
 
-    // scrollTo(0, y, {
-    //   ease: 'inOutExpo',
-    //   duration: 500
-    // });
-
     var scroll = new Scroll(document.body);
     scroll.to(0, y, {easing: 'easeInOutCubic', duration: 500});
 
