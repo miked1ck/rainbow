@@ -3,7 +3,7 @@ var path = require('path');
 var BUILD_DIR = path.resolve('./public');
 
 var config = {
-  entry: './app/app.js',
+  entry: './index.js',
   output: {
     path: BUILD_DIR,
     filename: '/app_packed.js'

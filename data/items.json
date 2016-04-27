@@ -2,7 +2,6 @@
   "dried_fruit": {
     "title": "Dried Fruit",
     "subtitle": "Primary",
-    "color": "#0040DE",
     "meta": [
       "Raisin",
       "Fig",
@@ -13,7 +12,6 @@
   "black_fruit":   {
     "title": "Black Fruit",
     "subtitle": "Primary",
-    "color": "#0069DE",
     "meta": [
       "Boysenberry",
       "Black Currant",
@@ -27,7 +25,6 @@
   "red_fruit": {
     "title": "Red Fruit",
     "subtitle": "Primary",
-    "color": "#00B0DE",
     "meta": [
       "Cranberry",
       "Red Plum",
@@ -42,7 +39,6 @@
   "tropical_fruit": {
     "title": "Tropical Fruit",
     "subtitle": "Primary",
-    "color": "#00D9DE",
     "meta": [
       "Pineapple",
       "Mango",
@@ -60,7 +56,6 @@
   "tree_fruit": {
     "title": "Tree Fruit",
     "subtitle": "Primary",
-    "color": "#00DE34",
     "meta": [
       "Quince",
       "Apple",
@@ -75,7 +70,6 @@
   "citrus": {
     "title": "Citrus",
     "subtitle": "Primary",
-    "color": "#98DE00",
     "meta": [
       "Lime",
       "Lemon",
@@ -88,7 +82,6 @@
   "flower": {
     "title": "Flower",
     "subtitle": "Primary",
-    "color": "#CCDE00",
     "meta": [
       "Iris",
       "Peony",
@@ -110,7 +103,6 @@
   "volatile_acidity": {
     "title": "Volatile Acidity",
     "subtitle": "Faults",
-    "color": "#DEB300",
     "meta": [
       "Balsamic",
       "Vinegar"
@@ -119,7 +111,6 @@
   "cooked_fruit": {
     "title": "Cooked Fruit",
     "subtitle": "Faults",
-    "color": "#DE9400",
     "meta": [
       "Stewed Fruit",
       "Toffee"
@@ -128,7 +119,6 @@
   "brettanomyces": {
     "title": "Brettanomyces",
     "subtitle": "Faults",
-    "color": "#DE6B00",
     "meta": [
       "Horse Manure",
       "Sweaty Leather Saddle",
@@ -139,7 +129,6 @@
   "sulfides_mercaptans": {
     "title": "Sulfides",
     "subtitle": "Faults",
-    "color": "#DE4C00",
     "meta": [
       "Cat Pee",
       "Onion",
@@ -153,7 +142,6 @@
   "tca_corked": {
     "title": "TCA (corked)",
     "subtitle": "Faults",
-    "color": "#DE2E00",
     "meta": [
       "Wet Dog",
       "Musty Cardboard"
@@ -162,7 +150,6 @@
   "general_aging": {
     "title": "General Aging",
     "subtitle": "Tertiary",
-    "color": "#DE0000",
     "meta": [
       "Leather",
       "Cocoa",
@@ -176,7 +163,6 @@
   "oak_aging": {
     "title": "Oak Aging",
     "subtitle": "Tertiary",
-    "color": "#DE006C",
     "meta": [
       "Dill",
       "Smoke",
@@ -190,7 +176,6 @@
   "microbial": {
     "title": "Microbial",
     "subtitle": "Secondary",
-    "color": "#DE00BE",
     "meta": [
       "Mushroom",
       "Truffle",
@@ -205,7 +190,6 @@
   "earth":  {
     "title": "Earth",
     "subtitle": "Primary",
-    "color": "#B600DE",
     "meta": [
       "Petroleum",
       "Volcanic Rocks",
@@ -219,7 +203,6 @@
   "vegetable": {
     "title": "Vegetable",
     "subtitle": "Primary",
-    "color": "#8300DE",
     "meta": [
       "Black Tea",
       "Sun Dried Tomato",
@@ -236,7 +219,6 @@
   "spice": {
     "title": "Spice",
     "subtitle": "Primary",
-    "color": "#4600DE",
     "meta": [
       "Thyme",
       "Mint",
@@ -258,7 +240,6 @@
   "noble_rot": {
     "title": "Noble Rot",
     "subtitle": "Primary",
-    "color": "#3100DE",
     "meta": [
       "Beeswax",
       "Ginger",

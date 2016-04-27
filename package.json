@@ -2,7 +2,7 @@
   "name": "Rainbow",
   "version": "1.0.0",
   "description": "React infinite scrolling rainbow color wheel",
-  "main": "app/app.js",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack --watch",
     "build": "webpack -p",
@@ -23,6 +23,8 @@
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
     "react-fastclick": "^2.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
     "scroll-js": "^1.0.4"
   },
   "devDependencies": {
