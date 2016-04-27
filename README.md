@@ -1,13 +1,13 @@
 # React Category Wheel
 
-A React infinite scrolling category wheel. Elastic / perfect for web apps: adapts to the size of any viewport. Extend the data file to be anything: recipes, lists, flash cards, etc.
+A React infinite scrolling category wheel. 
+ : - Elastic / perfect for web apps: adapts to the size of any viewport. 
+ : - Extend the data file to be anything: recipes, lists, flash cards, etc.
 
 
 ## Demo
 
-In this example, we created a wine aroma wheel (Vinscent's 🍷), for assisting wine enthusiasts in identifying scent characteristics of wine by category.
-
-From any mobile device, or narrowed browser window, visit: <a href="http://www.vinscents.fr">www.vinscents.fr</a>
+In this example, we created a wine aroma wheel (Vinscent's 🍷), for assisting wine enthusiasts in identifying scent characteristics of wine by category. From any mobile device, or narrowed browser window, visit: <a href="http://www.vinscents.fr">www.vinscents.fr</a>
 
 ![Category Wheel Demo](/screenshot.gif)
 
