@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
-var BUILD_DIR = path.resolve('./public');
+var BUILD_DIR = path.resolve('./src/public');
 
 var config = {
   entry: './src/index.js',
