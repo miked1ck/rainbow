@@ -2,10 +2,10 @@ var express = require('express');
 var app = express();
 
 // Serve static shit
-app.use(express.static(__dirname + '/public'));
-app.use(express.static(__dirname + '/components/'));
+app.use(express.static(__dirname + '/src/public'));
+app.use(express.static(__dirname + '/src/components/'));
 app.get("/", function(req, res) {
-   res.sendfile('./index.html')
+   res.sendfile('./src/index.html')
 });
 
 // Run it
