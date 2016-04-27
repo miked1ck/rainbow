@@ -7,7 +7,9 @@ A React infinite scrolling category wheel.
 
 ## Demo
 
-In this example, we created a wine aroma wheel (Vinscent's 🍷), for assisting wine enthusiasts in identifying scent characteristics of wine by category. From any mobile device, or narrowed browser window, visit: <a href="http://www.vinscents.fr">www.vinscents.fr</a>
+In this example, we created a wine aroma wheel (Vinscent's 🍷), for assisting wine enthusiasts in identifying scent characteristics of wine by category. 
+
+From any mobile device, or narrowed browser window, visit: <a href="http://www.vinscents.fr">www.vinscents.fr</a>
 
 ![Category Wheel Demo](/screenshot.gif)
 
