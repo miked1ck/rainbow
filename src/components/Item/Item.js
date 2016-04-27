@@ -11,8 +11,8 @@ class Item extends React.Component {
   _onClickItem(index) {
     const scroll = new Scroll(document.body);
     const h = window.innerHeight / 10;
-    const y = (+index) * h;
-    scroll.to(0, y, {easing: 'easeInOutCubic', duration: 500});
+    const y = ((+index) * h) - h;
+    scroll.to(0, y, {easing: 'easeInOutCubic', duration: 300});
 
     // remove expandingFrom class to reset the CSS/look
     setTimeout(function() {

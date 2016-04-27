@@ -1,12 +1,16 @@
-// Helpers
+// Init state
 ///////////////////////////
 
-const help = {
-  initState: {
-    expandingTo: '',
-    expandingFrom: ''
-  },
+const init = {
+  expandingTo: '',
+  expandingFrom: ''
+};
 
+
+// Actions
+///////////////////////////
+
+const actions = {
   expand: function(state, action) {
     if (state.expandingTo === '') {
       return { expandingFrom: '', expandingTo: action.expandingTo };
@@ -24,12 +28,12 @@ const help = {
 // Reducer
 ///////////////////////////
 
-function AppReducer(state = help.initState, action) {
+function reducer(state = init, action) {
   switch (action.type) {
     case 'EXPAND':
-      return help.expand(state, action);
+      return actions.expand(state, action);
     case 'COLLAPSE':
-      return help.collapse(state, action);
+      return actions.collapse(state, action);
     default:
       return state;
   }
@@ -39,4 +43,4 @@ function AppReducer(state = help.initState, action) {
 // Export
 ///////////////////////////
 
-export default AppReducer;
+export default reducer;
