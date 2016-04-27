@@ -1,8 +1,8 @@
 # React Category Wheel
 
 A React infinite scrolling category wheel. 
- : - Elastic / perfect for web apps: adapts to the size of any viewport. 
- : - Extend the data file to be anything: recipes, lists, flash cards, etc.
+ - Elastic / perfect for web apps: adapts to the size of any viewport. 
+ - Extend the data file to be anything: recipes, lists, flash cards, etc.
 
 
 ## Demo
