@@ -25,7 +25,6 @@ class Items extends React.Component {
 
   render() {
     let i = 0;
-    let item = {};
 
     return (
       <ul className="Items">
@@ -37,6 +36,7 @@ class Items extends React.Component {
     );
   }
 }
+
 
 // Export
 ///////////////////////////

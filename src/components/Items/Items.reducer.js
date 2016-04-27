@@ -20,7 +20,7 @@ const actions = {
   },
 
   collapse: function(state, action) {
-    return this.initState;
+    return init;
   }
 };
 
