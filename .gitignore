@@ -1,3 +1,4 @@
 .DS_Store
 node_modules
-src/public/app_packed.js
+src/public/index.packed.js
+src/public/index.packed.css

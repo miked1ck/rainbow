@@ -2,8 +2,7 @@ var express = require('express');
 var app = express();
 
 // Serve static shit
-app.use(express.static(__dirname + '/src/public'));
-app.use(express.static(__dirname + '/src/components/'));
+app.use('/public', express.static(__dirname + '/src/public'));
 app.get("/", function(req, res) {
    res.sendfile('./src/index.html')
 });

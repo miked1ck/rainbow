@@ -14,7 +14,7 @@ class Item extends React.Component {
     // scroll to item you just clicked
     const scroll = new Scroll(document.body);
     const h = window.innerHeight / 10;
-    const y = ((+index) * h) - h;
+    const y = (+index) * h;
     scroll.to(0, y, {easing: 'easeInOutCubic', duration: 300});
   }
 
