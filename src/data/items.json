@@ -1,7 +1,7 @@
 {
   "dried_fruit": {
     "title": "Dried Fruit",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Raisin",
       "Fig",
@@ -11,7 +11,7 @@
   },
   "black_fruit":   {
     "title": "Black Fruit",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Boysenberry",
       "Black Currant",
@@ -24,7 +24,7 @@
   },
   "red_fruit": {
     "title": "Red Fruit",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Cranberry",
       "Red Plum",
@@ -38,7 +38,7 @@
   },
   "tropical_fruit": {
     "title": "Tropical Fruit",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Pineapple",
       "Mango",
@@ -55,7 +55,7 @@
   },
   "tree_fruit": {
     "title": "Tree Fruit",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Quince",
       "Apple",
@@ -69,7 +69,7 @@
   },
   "citrus": {
     "title": "Citrus",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Lime",
       "Lemon",
@@ -81,7 +81,7 @@
   },
   "flower": {
     "title": "Flower",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Iris",
       "Peony",
@@ -102,7 +102,7 @@
   },
   "volatile_acidity": {
     "title": "Volatile Acidity",
-    "subtitle": "Faults",
+    "description": "Faults",
     "meta": [
       "Balsamic",
       "Vinegar"
@@ -110,7 +110,7 @@
   },
   "cooked_fruit": {
     "title": "Cooked Fruit",
-    "subtitle": "Faults",
+    "description": "Faults",
     "meta": [
       "Stewed Fruit",
       "Toffee"
@@ -118,7 +118,7 @@
   },
   "brettanomyces": {
     "title": "Brettanomyces",
-    "subtitle": "Faults",
+    "description": "Faults",
     "meta": [
       "Horse Manure",
       "Sweaty Leather Saddle",
@@ -128,7 +128,7 @@
   },
   "sulfides_mercaptans": {
     "title": "Sulfides",
-    "subtitle": "Faults",
+    "description": "Faults",
     "meta": [
       "Cat Pee",
       "Onion",
@@ -141,7 +141,7 @@
   },
   "tca_corked": {
     "title": "TCA (corked)",
-    "subtitle": "Faults",
+    "description": "Faults",
     "meta": [
       "Wet Dog",
       "Musty Cardboard"
@@ -149,7 +149,7 @@
   },
   "general_aging": {
     "title": "General Aging",
-    "subtitle": "Tertiary",
+    "description": "Tertiary",
     "meta": [
       "Leather",
       "Cocoa",
@@ -162,7 +162,7 @@
   },
   "oak_aging": {
     "title": "Oak Aging",
-    "subtitle": "Tertiary",
+    "description": "Tertiary",
     "meta": [
       "Dill",
       "Smoke",
@@ -175,7 +175,7 @@
   },
   "microbial": {
     "title": "Microbial",
-    "subtitle": "Secondary",
+    "description": "Secondary",
     "meta": [
       "Mushroom",
       "Truffle",
@@ -189,7 +189,7 @@
   },
   "earth":  {
     "title": "Earth",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Petroleum",
       "Volcanic Rocks",
@@ -202,7 +202,7 @@
   },
   "vegetable": {
     "title": "Vegetable",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Black Tea",
       "Sun Dried Tomato",
@@ -218,7 +218,7 @@
   },
   "spice": {
     "title": "Spice",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Thyme",
       "Mint",
@@ -239,7 +239,7 @@
   },
   "noble_rot": {
     "title": "Noble Rot",
-    "subtitle": "Primary",
+    "description": "Primary",
     "meta": [
       "Beeswax",
       "Ginger",

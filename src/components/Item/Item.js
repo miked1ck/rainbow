@@ -36,7 +36,7 @@ class Item extends React.Component {
       <li className={'Item ' + this._isExpanded(this.props.index)} onClick={() => this._onClickItem(this.props.index)} style={{background: this.props.color}}>
         <a href="#"><span>{item.title}</span></a>
         <div className="item-inner">
-          <span className="item-subtitle">{item.subtitle}</span>
+          <span className="item-desc">{item.description}</span>
           <ul className="item-meta">
             {item.meta.map(function(meta) {
               return <li>{meta}</li>
