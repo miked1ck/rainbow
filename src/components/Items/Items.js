@@ -18,9 +18,7 @@ class Items extends React.Component {
 
       // Duplicate our data set so we can scroll
       // TODO: bind this onScroll instead
-      var keys1 = Object.keys(items);
-      var keys2 = Object.keys(items);
-      this.items_x2 = [...keys1, ...keys2];
+      this.keys = Object.keys(items);
   }
 
   render() {
@@ -28,10 +26,10 @@ class Items extends React.Component {
 
     return (
       <ul className="Items">
-        { this.items_x2.map(function(key, index) {
+        { this.keys.map((key, index) => {
           i = (Object.keys(colors).length % index == 0 && index > 0) ? 0 : i+1;
-          return <Item item={items[key]} index={index} color={colors[i]} />;
-        }.bind(this))}
+          return <Item k={key} item={items[key]} index={index} color={colors[i]} />;
+        })}
       </ul>
     );
   }

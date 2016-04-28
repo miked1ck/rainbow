@@ -30,16 +30,16 @@ class Item extends React.Component {
   }
 
   render() {
-    const item = this.props.item;
+    const {k, index, color, item} = this.props;
 
     return (
-      <li className={'Item ' + this._isExpanded(this.props.index)} onClick={() => this._onClickItem(this.props.index)} style={{background: this.props.color}}>
-        <a href="#"><span>{item.title}</span></a>
+      <li key={k} className={'Item ' + this._isExpanded(index)} onClick={() => this._onClickItem(index)} style={{background: color}}>
+        <a href={'#'+k}><span>{item.title}</span></a>
         <div className="item-inner">
           <span className="item-desc">{item.description}</span>
           <ul className="item-meta">
-            {item.meta.map(function(meta) {
-              return <li>{meta}</li>
+            {item.meta.map(function(meta, i) {
+              return <li key={i}>{meta}</li>
             })}
           </ul>
         </div>
