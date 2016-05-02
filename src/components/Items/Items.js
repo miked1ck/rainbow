@@ -16,17 +16,38 @@ import items from '../../data/items.json';
 ///////////////////////////
 
 class Items extends React.Component {
-  constructor() {
+  constructor(props) {
       super();
 
-      // Duplicate our data set so we can scroll
-      // TODO: bind this onScroll instead
-      this.keys = Object.keys(items);
+      if (props.params.index) {
+        props._expandToItem(props.params.index);
+
+        // scroll to item you just clicked
+        const scroll = new Scroll(document.body);
+        const h = window.innerHeight / 10;
+        const y = (+props.params.index) * h;
+        scroll.to(0, y, {easing: 'easeInOutCubic', duration: 300});
+      }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', debounce(this._handleScroll.bind(this)));
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._handleScroll);
+  }
+
+  _handleScroll() {
+    let docHeight = document.getElementById('root').offsetHeight;
+    let scrollY = window.pageYOffset;
+    let appendThreshold = window.innerHeight*1.5;
+    if (scrollY >= docHeight-appendThreshold) {
+      this.props._appendMore(Object.keys(items));
+    }
   }
 
   render() {
-    let i = 0;
-
     return (
       <ul className="Items">
         { this.keys.map((key, index) => {
