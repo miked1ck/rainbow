@@ -8,7 +8,6 @@ import debounce from 'debounce';
 // Data
 ///////////////////////////
 
-import colors from '../../data/colors.json';
 import items from '../../data/items.json';
 
 
@@ -50,9 +49,8 @@ class Items extends React.Component {
   render() {
     return (
       <ul className="Items">
-        { this.keys.map((key, index) => {
-          i = (Object.keys(colors).length % index == 0 && index <= 0) ? 0 : i+1;
-          return <Item k={key} item={items[key]} index={index} color={colors[i]} />;
+        { this.props.keys.map((key, index) => {
+          return <Item item={items[key]} index={index} />;
         })}
       </ul>
     );

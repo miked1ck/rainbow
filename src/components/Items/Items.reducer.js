@@ -1,9 +1,12 @@
+import items from '../../data/items.json';
+
 // Init state
 ///////////////////////////
 
 const init = {
   expandingTo: '',
-  expandingFrom: ''
+  expandingFrom: '',
+  keys: Object.keys(items)
 };
 
 
