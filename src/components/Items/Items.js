@@ -1,5 +1,8 @@
 import React from 'react';
+import {connect} from 'react-redux';
 import Item from '../Item/Item.js';
+import Scroll from 'scroll-js';
+import debounce from 'debounce';
 
 
 // Data
@@ -36,7 +39,26 @@ class Items extends React.Component {
 }
 
 
+// Store
+///////////////////////////
+
+const itemsState = (state) => {
+  return { expandingTo: state.expandingTo, expandingFrom: state.expandingFrom, keys: state.keys };
+};
+
+const itemsDispatch = (dispatch) => {
+  return {
+    _expandToItem: (index) => {
+      dispatch({ type: 'EXPAND', expandingTo: index });
+    },
+    _appendMore: (keys) => {
+      dispatch({ type: 'APPEND', keys: keys });
+    }
+  }
+};
+
+
 // Export
 ///////////////////////////
 
-export default Items;
+export default connect(itemsState, itemsDispatch)(Items);

@@ -19,12 +19,15 @@
   "author": "Michael Dick and Eric Lobdell",
   "license": "ISC",
   "dependencies": {
+    "debounce": "^1.0.0",
     "express": "^4.13.4",
     "extract-text-webpack-plugin": "^1.0.1",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
     "react-fastclick": "^2.1.0",
+    "react-hammerjs": "^0.4.6",
     "react-redux": "^4.4.5",
+    "react-router": "^2.3.0",
     "redux": "^3.5.2",
     "scroll-js": "^1.0.4"
   },

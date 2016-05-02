@@ -1,6 +1,6 @@
 import React from 'react';
-import {store} from 'redux';
 import {connect} from 'react-redux';
+import {Link} from 'react-router'
 import Scroll from 'scroll-js';
 
 
